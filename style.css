@@ -1,0 +1,36 @@
+.block_row{
+    display: flex;
+    border: 20px solid #ece89d;
+    margin: 0px 0px 20px 0px;
+}
+.block_colum_1{
+    align-self: stretch;
+    order: 3;
+}
+.block_colum_2{
+    order: 2;
+}
+.block_colum_3{
+    align-self: center;
+    order: 1;
+}
+
+.block_colum{
+    border: 20px solid #5e5373;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.block_item{
+    background-color: #18b5f4;
+    padding: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.block{
+    text-align: center;
+}
+.block_item-height{
+    height: 230px;
+}
